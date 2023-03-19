@@ -25,7 +25,7 @@ export default function Contacto() {
           <textarea onChange={(e)=>setMensaje(e.target.value)} className='text-white py-2 px-3 h-[150px] resize-none placeholder:text-white/50 outline-none rounded-lg bg-[#bb6c45]' placeholder="Mensaje" type="text" name="mensaje" />
           <Btn />
           <input type="hidden" name="_captcha" value="false"></input>
-          <input type="hidden" name="_next" value="http://localhost:5173" />
+          <input type="hidden" name="_next" value="https://cafesit8.github.io/portafolio/" />
         </form>
       </div>
     </section>
