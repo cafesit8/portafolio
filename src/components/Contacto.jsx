@@ -18,7 +18,7 @@ export default function Contacto() {
       <h3 className='text-center text-[70px] max-[500px]:text-[40px] dark:text-white/40 font-extrabold'>Contáctame</h3>
       <div className="flex w-[1000px] max-[1020px]:flex-col max-[1020px]:w-[95%]">
         <picture>
-          <img className="m-auto" src={img} />
+          <img className="m-auto" alt={img} src={img} />
         </picture>
         <form className="rounded-md flex gap-3 flex-col w-[70%] self-center p-5 max-[1020px]:w-full" action="https://formsubmit.co/bf05bd4b5648a5cbc4d720495f98ac29" method="POST">
           <input onChange={(e)=>setNombre(e.target.value)} className='text-white py-2 px-3 placeholder:text-white/50 outline-none rounded-lg bg-[#bb6c45]' placeholder="Nombre" type="text" name="nombre" />

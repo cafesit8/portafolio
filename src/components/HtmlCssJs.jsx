@@ -25,97 +25,97 @@ export default function HtmlCssJs() {
     <div className='content mt-7'>
       <Suspense fallback={<h1>Cargando</h1>}>
         <LazyHtmlCssJsItem 
-          icon1={<img className="w-[30px] h-[30px] self-end mb-3 ml-4" src={html} />} 
-          icon2={<img className="w-[30px] h-[30px] self-end mb-3 ml-4" src={sass} />}
-          icon3={<img className="w-[30px] h-[30px] self-end mb-3 ml-4" src={js} />}
+          icon1={<img className="w-[30px] h-[30px] self-end mb-3 ml-4" alt={html} src={html} />} 
+          icon2={<img className="w-[30px] h-[30px] self-end mb-3 ml-4" alt={sass} src={sass} />}
+          icon3={<img className="w-[30px] h-[30px] self-end mb-3 ml-4" alt={js} src={js} />}
           icon4={<a className="icon self-end" target='_blank' href="https://github.com/cafesit8/Red-Social">
-              <img className="w-[30px] h-[30px] mb-3 ml-4" src={github} />
+              <img className="w-[30px] h-[30px] mb-3 ml-4" alt={github} src={github} />
           </a>}
           url='https://cafesito-book.netlify.app' 
           img={img1} />
         <LazyHtmlCssJsItem
-          icon1={<img className="w-[30px] h-[30px] self-end mb-3 ml-4" src={html} />} 
-          icon2={<img className="w-[30px] h-[30px] self-end mb-3 ml-4" src={css} />}
-          icon3={<img className="w-[30px] h-[30px] self-end mb-3 ml-4" src={js} />}
+          icon1={<img className="w-[30px] h-[30px] self-end mb-3 ml-4" alt={html} src={html} />} 
+          icon2={<img className="w-[30px] h-[30px] self-end mb-3 ml-4" alt={css} src={css} />}
+          icon3={<img className="w-[30px] h-[30px] self-end mb-3 ml-4" alt={js} src={js} />}
           icon4={<a className="icon self-end" target='_blank' href="https://github.com/cafesit8/ecommerce">
-              <img className="w-[30px] h-[30px] mb-3 ml-4" src={github} />
+              <img className="w-[30px] h-[30px] mb-3 ml-4" alt={github} src={github} />
           </a>}
           url='https://cafesito-shop.netlify.app' img={img2} />
         <LazyHtmlCssJsItem
-          icon1={<img className="w-[30px] h-[30px] self-end mb-3 ml-4" src={html} />} 
-          icon2={<img className="w-[30px] h-[30px] self-end mb-3 ml-4" src={css} />}
-          icon3={<img className="w-[30px] h-[30px] self-end mb-3 ml-4" src={js} />}
+          icon1={<img className="w-[30px] h-[30px] self-end mb-3 ml-4" alt={html} src={html} />} 
+          icon2={<img className="w-[30px] h-[30px] self-end mb-3 ml-4" alt={css} src={css} />}
+          icon3={<img className="w-[30px] h-[30px] self-end mb-3 ml-4" alt={js} src={js} />}
           icon4={<a className="icon self-end" target='_blank' href="https://github.com/cafesit8/Jikan-Api">
-              <img className="w-[30px] h-[30px] mb-3 ml-4" src={github} />
+              <img className="w-[30px] h-[30px] mb-3 ml-4" alt={github} src={github} />
           </a>}
           url='https://api-anime.netlify.app' img={img3} />
         <LazyHtmlCssJsItem 
-          icon1={<img className="w-[30px] h-[30px] self-end mb-3 ml-4" src={html} />} 
-          icon2={<img className="w-[30px] h-[30px] self-end mb-3 ml-4" src={sass} />}
-          icon3={<img className="w-[30px] h-[30px] self-end mb-3 ml-4" src={js} />}
+          icon1={<img className="w-[30px] h-[30px] self-end mb-3 ml-4" alt={html} src={html} />} 
+          icon2={<img className="w-[30px] h-[30px] self-end mb-3 ml-4" alt={sass} src={sass} />}
+          icon3={<img className="w-[30px] h-[30px] self-end mb-3 ml-4" alt={js} src={js} />}
           icon4={<a className="icon self-end" target='_blank' href="https://github.com/cafesit8/Fruits">
-              <img className="w-[30px] h-[30px] mb-3 ml-4" src={github} />
+              <img className="w-[30px] h-[30px] mb-3 ml-4" alt={github} src={github} />
           </a>}
           url='https://cafesit8.github.io/Fruits/' img={img4} />
         <LazyHtmlCssJsItem
-          icon1={<img className="w-[30px] h-[30px] self-end mb-3 ml-4" src={html} />} 
-          icon2={<img className="w-[30px] h-[30px] self-end mb-3 ml-4" src={tailwind} />}
-          icon3={<img className="w-[30px] h-[30px] self-end mb-3 ml-4" src={js} />}
+          icon1={<img className="w-[30px] h-[30px] self-end mb-3 ml-4" alt={html} src={html} />} 
+          icon2={<img className="w-[30px] h-[30px] self-end mb-3 ml-4" alt={tailwind} src={tailwind} />}
+          icon3={<img className="w-[30px] h-[30px] self-end mb-3 ml-4" alt={js} src={js} />}
           icon4={<a className="icon self-end" target='_blank' href="https://github.com/cafesit8/headphones-tailwind">
-              <img className="w-[30px] h-[30px] mb-3 ml-4" src={github} />
+              <img className="w-[30px] h-[30px] mb-3 ml-4" alt={github} src={github} />
           </a>}
           url='https://cafesit8.github.io/headphones-tailwind/' img={img5} />
         <LazyHtmlCssJsItem
-          icon1={<img className="w-[30px] h-[30px] self-end mb-3 ml-4" src={html} />} 
-          icon2={<img className="w-[30px] h-[30px] self-end mb-3 ml-4" src={sass} />}
-          icon3={<img className="w-[30px] h-[30px] self-end mb-3 ml-4" src={js} />}
+          icon1={<img className="w-[30px] h-[30px] self-end mb-3 ml-4" alt={html} src={html} />} 
+          icon2={<img className="w-[30px] h-[30px] self-end mb-3 ml-4" alt={sass} src={sass} />}
+          icon3={<img className="w-[30px] h-[30px] self-end mb-3 ml-4" alt={js} src={js} />}
           icon4={<a className="icon self-end" target='_blank' href="https://github.com/cafesit8/estaciones">
-              <img className="w-[30px] h-[30px] mb-3 ml-4" src={github} />
+              <img className="w-[30px] h-[30px] mb-3 ml-4" alt={github} src={github} />
           </a>}
           url='https://cafesit8.github.io/estaciones/' img={img6} />
         <LazyHtmlCssJsItem
-          icon1={<img className="w-[30px] h-[30px] self-end mb-3 ml-4" src={html} />} 
-          icon2={<img className="w-[30px] h-[30px] self-end mb-3 ml-4" src={sass} />}
-          icon3={<img className="w-[30px] h-[30px] self-end mb-3 ml-4" src={js} />}
+          icon1={<img className="w-[30px] h-[30px] self-end mb-3 ml-4" alt={html} src={html} />} 
+          icon2={<img className="w-[30px] h-[30px] self-end mb-3 ml-4" alt={sass} src={sass} />}
+          icon3={<img className="w-[30px] h-[30px] self-end mb-3 ml-4" alt={html} src={js} />}
           icon4={<a className="icon self-end" target='_blank' href="https://github.com/cafesit8/space">
-              <img className="w-[30px] h-[30px] mb-3 ml-4" src={github} />
+              <img className="w-[30px] h-[30px] mb-3 ml-4" alt={github} src={github} />
           </a>}
           url='https://cafesit8.github.io/space/' img={img7} />
         <LazyHtmlCssJsItem
-          icon1={<img className="w-[30px] h-[30px] self-end mb-3 ml-4" src={html} />} 
-          icon2={<img className="w-[30px] h-[30px] self-end mb-3 ml-4" src={css} />}
-          icon3={<img className="w-[30px] h-[30px] self-end mb-3 ml-4" src={js} />}
+          icon1={<img className="w-[30px] h-[30px] self-end mb-3 ml-4" alt={html} src={html} />} 
+          icon2={<img className="w-[30px] h-[30px] self-end mb-3 ml-4" alt={css} src={css} />}
+          icon3={<img className="w-[30px] h-[30px] self-end mb-3 ml-4" alt={js} src={js} />}
           icon4={<a className="icon self-end" target='_blank' href="https://github.com/cafesit8/Music-App">
-              <img className="w-[30px] h-[30px] mb-3 ml-4" src={github} />
+              <img className="w-[30px] h-[30px] mb-3 ml-4" alt={github} src={github} />
           </a>}
           url='https://cafesit8.github.io/Music-App/' img={img8} />
         <LazyHtmlCssJsItem
-          icon1={<img className="w-[30px] h-[30px] self-end mb-3 ml-4" src={html} />} 
-          icon2={<img className="w-[30px] h-[30px] self-end mb-3 ml-4" src={sass} />}
+          icon1={<img className="w-[30px] h-[30px] self-end mb-3 ml-4" alt={html} src={html} />} 
+          icon2={<img className="w-[30px] h-[30px] self-end mb-3 ml-4" alt={sass} src={sass} />}
           icon4={<a className="icon self-end" target='_blank' href="https://github.com/cafesit8/reposter-a">
-              <img className="w-[30px] h-[30px] mb-3 ml-4" src={github} />
+              <img className="w-[30px] h-[30px] mb-3 ml-4" alt={github} src={github} />
           </a>}
           url='https://respoteria.netlify.app' img={img9} />
         <LazyHtmlCssJsItem
-          icon1={<img className="w-[30px] h-[30px] self-end mb-3 ml-4" src={html} />} 
-          icon2={<img className="w-[30px] h-[30px] self-end mb-3 ml-4" src={css} />}
-          icon3={<img className="w-[30px] h-[30px] self-end mb-3 ml-4" src={js} />}
+          icon1={<img className="w-[30px] h-[30px] self-end mb-3 ml-4" alt={html} src={html} />} 
+          icon2={<img className="w-[30px] h-[30px] self-end mb-3 ml-4" alt={css} src={css} />}
+          icon3={<img className="w-[30px] h-[30px] self-end mb-3 ml-4" alt={js} src={js} />}
           icon4={<a className="icon self-end" target='_blank' href="https://github.com/cafesit8/Bookmark">
-              <img className="w-[30px] h-[30px] mb-3 ml-4" src={github} />
+              <img className="w-[30px] h-[30px] mb-3 ml-4" alt={github} src={github} />
           </a>}
           url='https://cafesit8.github.io/Bookmark/?submit=Contact+Us' img={img10} />
           <LazyHtmlCssJsItem
-          icon1={<img className="w-[30px] h-[30px] self-end mb-3 ml-4" src={html} />} 
-          icon2={<img className="w-[30px] h-[30px] self-end mb-3 ml-4" src={css} />}
+          icon1={<img className="w-[30px] h-[30px] self-end mb-3 ml-4" alt={html} src={html} />} 
+          icon2={<img className="w-[30px] h-[30px] self-end mb-3 ml-4" alt={css} src={css} />}
           icon4={<a className="icon self-end" target='_blank' href="https://github.com/cafesit8/landing-page">
-              <img className="w-[30px] h-[30px] mb-3 ml-4" src={github} />
+              <img className="w-[30px] h-[30px] mb-3 ml-4" alt={github} src={github} />
           </a>}
           url='https://cafesit8.github.io/landing-page/' img={img11} />
           <LazyHtmlCssJsItem
-          icon1={<img className="w-[30px] h-[30px] self-end mb-3 ml-4" src={html} />} 
-          icon2={<img className="w-[30px] h-[30px] self-end mb-3 ml-4" src={css} />}
+          icon1={<img className="w-[30px] h-[30px] self-end mb-3 ml-4" alt={html} src={html} />} 
+          icon2={<img className="w-[30px] h-[30px] self-end mb-3 ml-4" alt={css} src={css} />}
           icon4={<a className="icon self-end" target='_blank' href="https://github.com/cafesit8/cartillas-grid">
-              <img className="w-[30px] h-[30px] mb-3 ml-4" src={github} />
+              <img className="w-[30px] h-[30px] mb-3 ml-4" alt={github} src={github} />
           </a>}
           url='https://cafesit8.github.io/cartillas-grid/' img={img12} />
       </Suspense>
