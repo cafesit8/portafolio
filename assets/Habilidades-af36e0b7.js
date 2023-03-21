@@ -1,1 +1,0 @@
-import{j as a}from"./index-64884907.js";function i({img:e,alt:l}){return a("picture",{className:"w-[60px] h-[60px] overflow-hidden max-[500px]:w-[40px] max-[500px]:h-[40px]",children:a("img",{className:"w-full h-full object-contain",src:e,alt:l})})}export{i as default};
