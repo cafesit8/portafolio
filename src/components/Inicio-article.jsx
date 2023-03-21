@@ -1,4 +1,3 @@
-import React from "react";
 import {BsInstagram,BsGithub} from 'react-icons/bs'
 import {RiFacebookFill} from 'react-icons/ri'
 import { ArticleIcons } from "./Article-Icons";
@@ -14,9 +13,9 @@ export function InicioArticle() {
         capaz de poder poner en práctica lo aprendido. Con el gusto de siempre estar al tanto de nuevas tecnologías, muy activo y con buena comunicación.
       </p>
       <div className="flex items-center gap-7">
-        <ArticleIcons url='https://www.facebook.com/EliasL.Melgarejo' icon={<RiFacebookFill className="text-[30px] text-black"/>} />
-        <ArticleIcons url='https://www.instagram.com/elias_l.m/' icon={<BsInstagram className="text-[30px] text-black" />} />
-        <ArticleIcons url='https://github.com/cafesit8' icon={<BsGithub className="text-[30px] text-black" />} />
+        <ArticleIcons url='https://www.facebook.com/EliasL.Melgarejo' icon={<RiFacebookFill name="facebook" className="text-[30px] text-black"/>} />
+        <ArticleIcons url='https://www.instagram.com/elias_l.m/' icon={<BsInstagram name="instagram" className="text-[30px] text-black" />} />
+        <ArticleIcons url='https://github.com/cafesit8' icon={<BsGithub name="github" className="text-[30px] text-black" />} />
       </div>
     </article>
   );

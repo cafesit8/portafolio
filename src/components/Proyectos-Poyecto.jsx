@@ -1,4 +1,4 @@
-import { useEffect, useState } from 'react'
+import { useState } from 'react'
 import HtmlCssJs from './HtmlCssJs'
 import {ReactProyecto} from './React-Proyecto'
 
