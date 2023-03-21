@@ -40,7 +40,7 @@ export function ReactProyecto() {
           icon3={<a className="icon self-end" target='_blank' href="https://github.com/cafesit8/Task-App">
               <img className="w-[30px] h-[30px] mb-3 ml-4" src={github} />
           </a>}  
-          url='https://github.com/cafesit8/Task-App'
+          url='https://cafesit8.github.io/Task-App/'
           img={img3} />
           <LazyHtmlCssJsItem 
           icon1={<img className="w-[35px] h-[30px] self-end mb-3 ml-4" src={react} />}  
