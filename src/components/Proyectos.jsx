@@ -3,8 +3,8 @@ import css from '../img/css-3.png'
 import js from '../img/js.png'
 import bootstrap from '../img/bootstrap.png'
 import sass from '../img/sass.png'
-import react from '../img/react.png'
-import github from '../img/github.png'
+import react from '../img/react.webp'
+import github from '../img/github.webp'
 import git from '../img/git.png'
 import tailwind from '../img/Tailwind CSS.png'
 import firebase from '../img/firebase.png'
@@ -17,7 +17,7 @@ export function Proyectos() {
   return (
     <section id='proyectos' className='w-full h-auto mt-32 py-10'>
       <div className='w-[1222px] m-auto flex flex-col gap-7 max-[1230px]:w-[93%]'>
-        <h5 className='dark:text-white/50 text-[35px] text-center font-bold'>Habilidades:</h5>
+        <h5 className='text-[35px] text-center font-bold dark:text-white/50'>Habilidades:</h5>
         <div className='flex gap-3 flex-wrap justify-evenly'>
             <Suspense fallback={<h1>Cargando</h1>}>
                 <LazyHabilidades img={html} alt='html' />

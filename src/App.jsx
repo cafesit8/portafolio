@@ -10,7 +10,7 @@ function App() {
     <main className="bg-[#f8f1e8] w-full h-auto text-black flex flex-col items-center dark:text-white dark:bg-[#361b0b] duration-200">
       <NavBar />
       <Inicio />
-      <Suspense fallback={<h1>Cargando</h1>}>
+      <Suspense fallback={<h5>Cargando</h5>}>
         <LazySobreMi />
       </Suspense>
       <Proyectos />
