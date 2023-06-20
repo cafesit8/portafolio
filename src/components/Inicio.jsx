@@ -1,7 +1,7 @@
-import foto from '../img/foto.jpeg'
 import { InicioArticle } from './Inicio-article'
+import foto from '../img/foto.jpeg'
 
-export function Inicio() {
+export default function Inicio() {
   return (
     <section id='inicio' className='w-full h-screen flex items-center justify-center'>
         <div className='flex flex-col gap-5 w-[1000px] overflow-hidden max-[1030px]:w-[94%] max-[600px]:gap-3'>

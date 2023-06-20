@@ -1,16 +1,18 @@
 import React, { Suspense, lazy } from 'react'
-import img1 from '../img/weather.png'
-import img2 from '../img/cafecitobook.png'
-import img3 from '../img/taskList.png'
-import img4 from '../img/christmas.png'
-import img5 from '../img/landing.png'
-import img6 from '../img/rick&&morty.png'
+import img1 from '../img/weather.webp'
+import img2 from '../img/cafecitobook.webp'
+import img3 from '../img/taskList.webp'
+import img4 from '../img/christmas.webp'
+import img5 from '../img/landing.webp'
+import img6 from '../img/rick&&morty.webp'
+import img7 from '../img/pokemon.webp'
 import react from '../img/react.webp'
 import css from "../img/css-3.png"
 import tailwind from '../img/Tailwind CSS.png'
 import github from '../img/github.webp'
 import firebase from '../img/firebase.png'
 import sass from '../img/sass.png'
+import typescript from '../img/typescript.webp'
 const LazyHtmlCssJsItem = lazy(()=> import('./ProyectoDetalles'))
 
 export function ReactProyecto() {
@@ -60,6 +62,14 @@ export function ReactProyecto() {
           github={github} 
           url='https://cafesit8.github.io/Rick-y-Morty-React-Vite/'
           img={img6} />
+          <LazyHtmlCssJsItem 
+          react={react}
+          typescript={typescript}
+          tailwind={tailwind}
+          urlGitHub='https://github.com/cafesit8/poke-api'
+          github={github} 
+          url='https://cafesit8.github.io/poke-api/'
+          img={img7} />
       </Suspense>
     </div>
   )

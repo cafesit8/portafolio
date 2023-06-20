@@ -1,16 +1,15 @@
 import img1 from '../img/red-social.webp'
-import img2 from '../img/ecommerce.png'
-import img3 from '../img/jikanApi.png'
-import img4 from '../img/fruits.png'
+import img2 from '../img/ecommerce.webp'
+import img3 from '../img/jikanApi.webp'
+import img4 from '../img/fruits.webp'
 import img5 from '../img/headphones.webp'
-import img6 from '../img/estaciones.png'
-import img7 from '../img/space.png'
+import img6 from '../img/estaciones.webp'
+import img7 from '../img/space.webp'
 import img8 from '../img/music-app.webp'
-import img9 from '../img/helados.png'
-import img10 from '../img/bookmark.png'
-import img11 from '../img/landing-page.jpg'
-import img12 from '../img/grid.png'
-import '../index.css'
+import img9 from '../img/helados.webp'
+import img10 from '../img/bookmark.webp'
+import img11 from '../img/landing-page.webp'
+import img12 from '../img/grid.webp'
 import html from "../img/html-5.png";
 import css from "../img/css-3.png";
 import js from "../img/js.png";
@@ -19,6 +18,7 @@ import sass from '../img/sass.png'
 import tailwind from '../img/Tailwind CSS.png'
 import { lazy, Suspense } from 'react'
 const LazyHtmlCssJsItem = lazy(()=> import('./ProyectoDetalles'))
+import '../index.css'
 
 export default function HtmlCssJs() {
   return (

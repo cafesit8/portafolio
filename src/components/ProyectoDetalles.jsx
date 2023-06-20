@@ -1,5 +1,5 @@
 
-export default function ({img, url, urlGitHub , html, react, css, sass, js, tailwind, firebase, github}) {
+export default function ({img, url, urlGitHub, typescript, html, react, css, sass, js, tailwind, firebase, github}) {
   return (
       <a className="img-container relative overflow-hidden" target='_blank' href={url} >
         <picture className="w-full">
@@ -9,6 +9,9 @@ export default function ({img, url, urlGitHub , html, react, css, sass, js, tail
           <picture className="w-[30px] h-[30px] self-end mb-3 ml-4">
             <img className="w-full h-full object-contain" fetchpriority='low' alt={html || react} src={html || react} />
           </picture>
+          {typescript && <picture className="w-[30px] h-[30px] self-end mb-3 ml-4">
+            <img className="w-full h-full object-contain" fetchpriority='low' alt={typescript} src={typescript} />
+          </picture>}
           <picture className="w-[30px] h-[30px] self-end mb-3 ml-4">
             <img className="w-full h-full object-contain" fetchpriority='low' alt={css || sass || tailwind} src={css || sass || tailwind} />
           </picture>
